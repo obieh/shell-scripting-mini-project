@@ -1,2 +1,2 @@
 # shell-scripting-mini-project
-This project demonstrates how to create and execute shell scripts
+This project demonstrates how to create and execute shell scripts for performing repetitative task
