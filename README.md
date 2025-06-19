@@ -1,5 +1,5 @@
 # Shell-scripting-mini-project.
-This project demonstrates how to create and execute shell scripts for performing repetitative tasks.
+## This project demonstrates how to create and execute shell scripts for performing repetitative tasks.
 
 # Shell Scripting
 
@@ -20,6 +20,15 @@ This project demonstrates how to create and execute shell scripts for performing
 COFFEE_TYPE ="Expresso"
 PRICE=3.59
 ```
+### Variable Example demo
+
+* Run `name="John"` to assign the value 'john' to the variabl 'name'
+
+* Run `echo $name` to retrieve the value of the variable. Prefix variable name with '$'
+
+* Run `echo My name is $name` to retrieve variable value along side string provided.
+
+![](./img/variable.png)
 
 ## Daily Backup Script
 ### At the end of each day, you want to :
@@ -44,3 +53,59 @@ PRICE=3.59
 
 ![](./img/ls-dir.png)
 
+* Run `,/backup.sh` to execute the script.
+
+* List the folder to verify execution of the script
+![](./img/ls-after-run.png)
+
+### You see that the script executed as desired and the log files are present in the desired folder.
+
+
+## Task
+
+* Use `mkdir` command to create a folder 'shell-scripting'
+
+* Use `cd shell-scripting` to change to shell-scripting dir.
+
+![](./img/mkdir-cd-shell-scripting.png)
+
+* Run `vim my_first_shell-script.sh` to create a .sh file 'my_first_shell-script.sh'
+
+![](./img/vim-script.png)
+
+* Run `ls latr` to confirm file creation and file permission
+
+![](./img/ls-latr.png)
+
+* Run `cat my_first_shell-script.sh` to verify file content
+
+![](./img/cat-my-first.png)
+
+* Run `./my_first_shell_script.sh` to execute script.
+
+![](./img/exec-b4-perm.png)
+
+### Script did not run to permission issues. Owner had read, write permission but not execute permission.
+
+* Run `chmod 700 ./my_first_shell_script.sh
+` to give owner execute permission
+
+![](./img/chmod2.png)
+
+* Run `ls latr` to confirm file execute permission.
+
+![](./img/ls-latr-sfta-perm.png)
+
+### Owner now has execute permission as shown above. Let's execute the script.
+
+* Run `./my_first_shell_script.sh` to run the script again.
+
+### List the directory to confirm if script was executed as desired
+
+![](./img/ls-to-show-folders.png)
+
+### Folders were created as desired in the script. Let us check if user were created as well.
+
+![](./img/id-users.png)
+
+### User were created as shown above. The script executed as we wnated.
