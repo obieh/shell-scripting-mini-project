@@ -1,11 +1,11 @@
 # Shell-scripting-mini-project.
 ## This project demonstrates how to create and execute shell scripts for performing repetitative tasks.
 
-# Shell Scripting
+# Shell Scripting.
 
 ### Shell scripting is like writing a recipe for your computer to follow - it's a way to automate tasks by putting commands in a file that your operating system can execute. 
 
-## Basic Components of a Shell Script
+## Basic Components of a Shell Script.
 
 * The Shebang (#!). This tells the system which interpreter to use, like specifying which chef will follow your recipe.
 
@@ -20,7 +20,7 @@
 COFFEE_TYPE ="Expresso"
 PRICE=3.59
 ```
-### Variable Example demo
+### Variable Example demo.
 
 * Run `name="John"` to assign the value 'john' to the variabl 'name'
 
@@ -36,7 +36,7 @@ PRICE=3.59
 * Move to safe location
 * Clean uo temporary files
 
-### Create a file backup.sh and add the content below
+### Create a file backup.sh and add the content below.
 
 [](./backup.sh)
 
