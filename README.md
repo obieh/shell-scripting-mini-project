@@ -30,7 +30,7 @@ PRICE=3.59
 
 ![](./img/variable.png)
 
-## Daily Backup Script
+## Daily Backup Script.
 ### At the end of each day, you want to :
 * Backup log data
 * Move to safe location
@@ -88,7 +88,7 @@ PRICE=3.59
 ### Script did not run to permission issues. Owner had read, write permission but not execute permission.
 
 * Run `chmod 700 ./my_first_shell_script.sh
-` to give owner execute permission
+` to give owner execute permission.
 
 ![](./img/chmod2.png)
 
@@ -100,7 +100,7 @@ PRICE=3.59
 
 * Run `./my_first_shell_script.sh` to run the script again.
 
-### List the directory to confirm if script was executed as desired
+### List the directory to confirm if script was executed as desired.
 
 ![](./img/ls-to-show-folders.png)
 
