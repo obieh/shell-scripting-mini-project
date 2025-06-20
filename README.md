@@ -108,4 +108,4 @@ PRICE=3.59
 
 ![](./img/id-users.png)
 
-### User were created as shown above. The script executed as we wnated.
+### User were created as shown above. The script executed as we wanted.
